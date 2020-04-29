@@ -18,6 +18,7 @@ html {
 html,
 body {
   height: 100%;
+  overflow-x: hidden;
 }
 
 a {
@@ -35,15 +36,13 @@ li {
 
 body {
   color: #454851;
-  position: relative;
-  overflow-x: hidden;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   line-height: 22px;
 }
 
 .container {
-  width: 1160px;
+  max-width: 1160px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -740,15 +739,21 @@ body {
 }
 
 .location__item-info {
+  position: relative;
   padding: 20px;
 }
 
 .location__item-info p {
   font-size: 16px;
   line-height: 26px;
+  margin-bottom: 20px;
 }
 
 .location__item-info a {
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  position: absolute;
   background-color: #f31131;
   padding: 10px 0;
   width: 140px;
@@ -773,6 +778,7 @@ body {
 .location__item-tite {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .location__item-icons ul {

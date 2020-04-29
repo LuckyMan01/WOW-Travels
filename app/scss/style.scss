@@ -304,12 +304,18 @@
     background-color: #fff;
     max-width: 560px;
     &-info{
+        position: relative;
         padding: 20px;
         p{
             font-size: 16px;
             line-height: 26px;
+            margin-bottom: 20px;
         }
         a{
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            position: absolute;
             background-color: $red;
             padding: 10px 0;
             width: 140px;
@@ -327,6 +333,7 @@
     &-tite{
         font-size: 20px;
         font-weight: 600;
+        margin-bottom: 10px;
     }
     &-icons{
         ul{
