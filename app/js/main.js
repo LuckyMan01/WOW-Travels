@@ -19,6 +19,22 @@ $('.header__inner').slick({
     arrows:false,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1145,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 590,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   });
 
 
@@ -92,6 +108,9 @@ $('.header__inner').slick({
     arrows: false,
     centerMode: true,
     focusOnSelect: true
+  });
+  $('.box__menu').on('click',function(){
+    $('.menu__list').slideToggle();
   });
   
 
