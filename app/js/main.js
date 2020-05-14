@@ -10,7 +10,7 @@ $('.header__inner').slick({
     slidesToScroll: 1,
     arrows:false,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
   });
   $('.content__inner').slick({
     cssEase: 'linear',
@@ -18,7 +18,7 @@ $('.header__inner').slick({
     slidesToScroll: 3,
     arrows:false,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 1000,
     responsive: [
       {
         breakpoint: 1145,
